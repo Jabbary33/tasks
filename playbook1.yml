@@ -1,0 +1,13 @@
+---
+
+- hosts: all
+  remote_user: root
+
+  vars:
+    postgresql_backup_dir: /archive
+
+  roles:
+    - ansible-postgresql
+
+
+ 
